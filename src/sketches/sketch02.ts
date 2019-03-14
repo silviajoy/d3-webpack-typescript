@@ -1,10 +1,4 @@
-import * as d3 from "d3";
-import * as sketch from "./sketches/sketches"
-
-
-let svg = d3.select("svg")
-
-const dance = () => {
+const dance = (svg:d3.Selection<d3.BaseType, {}, HTMLElement, any>) => {
     setInterval(() => {
         let circle = svg.selectAll("circle")
         
@@ -20,10 +14,4 @@ const dance = () => {
     }, 1000)
 }
 
-sketch.s02(svg)
-
-
-
-
-
-
+export default dance
