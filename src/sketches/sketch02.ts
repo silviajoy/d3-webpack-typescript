@@ -12,9 +12,9 @@ const dance = (svg:d3.Selection<d3.BaseType, {}, HTMLElement, any>) => {
         svg.append("circle")
             .attr("cy", Math.random() * window.innerHeight)
             .attr("cx", Math.random() * window.innerWidth)
-            .attr("r",  Math.random()*100)
+            .attr("r",  Math.random()*50)
             .style("fill", color);
-    }, 10000)
+    }, 1000/60)
 }
 
 export default dance
