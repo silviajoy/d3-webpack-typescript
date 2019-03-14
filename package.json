@@ -1,0 +1,37 @@
+{
+  "name": "d3-webpack-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.122",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:silviajoy/d3-webpack-typescript.git"
+  },
+  "keywords": [
+    "webpack",
+    "d3",
+    "typescript"
+  ],
+  "author": "silviajoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silviajoy/d3-webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/silviajoy/d3-webpack-typescript#readme"
+}
