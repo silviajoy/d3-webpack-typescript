@@ -4,7 +4,7 @@ import * as sketch from "./sketches/sketches"
 
 let svg = d3.select("svg")
 
-sketch.s02(svg)
+sketch.s04(svg)
 
 
 

@@ -12,7 +12,7 @@ const dance = (svg:d3.Selection<d3.BaseType, {}, HTMLElement, any>) => {
         svg.append("circle")
             .attr("cy", Math.random() * window.innerHeight)
             .attr("cx", Math.random() * window.innerWidth)
-            .attr("r",  Math.random()*50)
+            .attr("r",  Math.random()*49+1)
             .style("fill", color);
     }, 1000/60)
 }
